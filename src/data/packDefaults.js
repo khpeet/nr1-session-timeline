@@ -1,9 +1,9 @@
 export default [
   {
     type: 'BROWSER',
-    searchAttribute: '',
-    rootEvent: 'BrowserInteraction',
-    groupingAttribute: 'session',
+    searchAttribute: 'deviceID',
+    rootEvent: 'AjaxRequest',
+    groupingAttribute: 'deviceID',
     linkingAttribute: '',
     timelineEventTypes: [
       { name: 'PageView', selected: false },
@@ -11,6 +11,7 @@ export default [
       { name: 'AjaxRequest', selected: true },
       { name: 'JavaScriptError', selected: true },
       { name: 'BrowserTiming', selected: true },
+      { name: 'PageAction', selected: true },
     ],
     eventTitleAttributes: [
       {

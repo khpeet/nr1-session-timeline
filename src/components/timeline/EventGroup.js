@@ -86,6 +86,20 @@ const groups = [
     actionNames: ['AjaxRequest'],
   },
   {
+    name: 'PAGEACTION',
+    eventDisplay: {
+      class: 'timeline-item-type-pageaction',
+      icon: Icon.TYPE.INTERFACE__OPERATIONS__SELECTION__V_ALTERNATE,
+      label: 'PageAction',
+      color: '#ffa500',
+    },
+    timelineDisplay: {
+      color: '#ffc447',
+      label: 'PageAction',
+    },
+    actionNames: ['PageAction'],
+  },
+  {
     name: 'REQUEST',
     eventDisplay: {
       class: 'timeline-item-type-ajax',
